@@ -1,0 +1,58 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(208, 208, 208);
+  margin: 1vw;
+  padding: 1vw;
+}
+
+nav ul {
+  padding-left: 0;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  font-weight: bold;
+  padding: 7px;
+  background-color: black;
+  color: aliceblue;
+  border: 1px solid red;
+  width: 23%;
+}
+
+form button {
+  background-color: rgb(53, 232, 95);
+  color: white;
+  border: none;
+  padding: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  nav ul {
+    display: block;
+  }
+
+  nav ul li {
+    width: 90%;
+  }
+}
+
+h1 {
+  font-size: calc(10px + 1vw);
+}
+
+ol li {
+  font-size: calc(10px+1vw);
+  padding: 8px;
+}
+
+form input {
+  padding: 5px 5px 0px 5px;
+  margin-bottom: 0;
+  border: 2px solid rgb(59, 180, 255);
+  border-radius: 5px;
+  width: 90%;
+}

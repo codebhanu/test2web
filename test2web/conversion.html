@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test </title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: rgb(208, 208, 208);
+      margin: 1vw;
+      padding: 1vw;
+    }
+
+    nav ul {
+      padding-left: 0;
+      display: flex;
+      list-style: none;
+    }
+
+    nav ul li {
+      font-weight: bold;
+      padding: 8px;
+      background-color: black;
+      color: aliceblue;
+      border: 1px solid red;
+      width: 23%;
+    }
+
+    form button {
+      background-color: rgb(53, 232, 95);
+      color: white;
+      border: none;
+      padding: 5px;
+    }
+
+    @media screen and (max-width: 700px) {
+      nav ul {
+        display: block;
+      }
+
+      nav ul li {
+        width: 90%;
+      }
+    }
+
+    h1 {
+      font-size: calc(10px + 1vw);
+    }
+
+
+
+
+    form input {
+      padding: 4px;
+      margin-bottom: 0;
+      border: 2px solid rgb(65, 59, 230);
+      border-radius: 6px;
+      width: 90%;
+      height: 12%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li>About Us</li>
+      <li>Contact Us</li>
+      <li>Services</li>
+      <li>Team</li>
+    </ul>
+  </nav>
+
+  <h1>Enter the weight to be converted below </h1>
+  <form action="result.html">
+
+    <input type="text" placeholder="Type 1,2 or 3 here" id="num">
+    <br><br>
+
+
+
+    <button type="convert" onclick="nav">Convert</button>
+
+  </form>
+</body>
+
+</html>
